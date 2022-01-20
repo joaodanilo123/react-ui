@@ -1,0 +1,33 @@
+@import "./variables.scss";
+
+.Post {
+    background-color: $transparent-bg;
+    font-family: $font;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: $box-shadow;
+}
+
+.postArticle {
+    font-size: $font-size-content;
+}
+
+.postHeader {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.postHeader h4 {
+    margin: 0;
+    margin-left: 0.5rem;
+    font-weight: 200;
+}
+
+.postHeader img {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 100%;
+    border: 2px solid #003fdf;
+}
